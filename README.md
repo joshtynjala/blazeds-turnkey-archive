@@ -1,8 +1,8 @@
 # BlazeDS Turnkey Bundle Archive
 
-Before donating BlazeDS to the [Apache Flex](https://flex.apache.org/) project, Adobe BlazeDS releases included a special "turnkey" bundle that included a pre-configured version of Apache Tomcat and a number of samples — to demonstrate how to use BlazeDS on the server with Apache Flex on the client.
+Before Adobe donated BlazeDS to the [Apache Flex](https://flex.apache.org/) project, Adobe BlazeDS releases included a special "turnkey" bundle that included a pre-configured version of Apache Tomcat and a number of samples — to demonstrate how to use BlazeDS on the server with Apache Flex on the client.
 
-Adobe no longer makes this the turnkey bundle available for download, but because it was released under an open source license, this archive was created to ensure that these sample applications remain available as a reference for learning purposes.
+Adobe no longer makes this turnkey bundle available for download. However, because the bundle was released under an open source license, this archive was created to ensure that its included sample applications remain available as a reference for learning purposes.
 
 > **Warning!** This bundle contains the original (now outdated) versions of Adobe BlazeDS 4.0.0.14931 and Apache Tomcat 6.0.14. These should not be used in production, as they may contain security vulnerabilities. For real-world apps, you should upgrade to the latest versions of BlazeDS and Tomcat.
 
