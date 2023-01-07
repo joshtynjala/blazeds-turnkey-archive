@@ -20,6 +20,15 @@ However, these front-end samples have been recreated to be run using JavaScript,
 
 The [_feathersui-blazeds-turnkey-samples_](https://github.com/feathersui/feathersui-blazeds-turnkey-samples) repository includes recreations of a number of the front-end samples from the BlazeDS Turnkey bundle using the [Haxe](https://haxe.org/) programming language, and the [Feathers UI](https://feathersui.com/) library. These new samples can be compiled to HTML and JavaScript, allowing them to replace the original Flex front-end samples.
 
+## Upgrade BlazeDS
+
+The original bundle includes Adobe BlazeDS 4.0.0.14931, which is outdated and contains known security vulnerablities. BlazeDS is now managed by the [Apache Flex](https://flex.apache.org) project, and you can download a more recent release from 
+
+1. Download the [BlazeDS source release](https://flex.apache.org/download-blazeds.html).
+1. Extract the BlazeDS source release somewhere on your computer.
+1. Follow the instructions to build BlazeDS.
+1. Collect the compiled _flex-messaging-*.jar_ files, and all dependencies, and replace everything except _hsqldb.jar_ in the _webapps/samples/WEB-INF/lib_ directory.
+
 ## Upgrade Tomcat
 
 The original bundle includes Apache Tomcat 6.0.14, which may not be fully compatible with modern environments. Before getting started, you may need to upgrade Tomcat to a newer version.
@@ -36,6 +45,8 @@ The existing samples are compatible with [Tomcat 9](https://tomcat.apache.org/do
 ### Tomcat 10
 
 Upgrading to [Tomcat 10](https://tomcat.apache.org/download-10.cgi) or newer requires one additional step because the existing samples need to be migrated from Java EE to Jakarta EE, as explained in the [Tomcat 10 Migration Guide](https://tomcat.apache.org/migration-10.html). Thankfully, most of the work is done by an automated tool built into Tomcat.
+
+> If you're going to upgrade both BlazeDS and Tomcat 10, upgrade BlazeDS first. Tomcat 10's automated migration needs to process the BlazeDS _.jar_ files too.
 
 1. Delete everything except the _webapps_ subdirectory inside the _tomcat_ directory of the extracted BlazeDS Turnkey bundle.
 1. Rename the existing _webapps_ subdirectory to _webapps-javaee_. This will cause the automated migration process to trigger when you start the server.
