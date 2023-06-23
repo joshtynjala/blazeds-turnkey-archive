@@ -63,7 +63,8 @@ Upgrading to [Tomcat 10](https://tomcat.apache.org/download-10.cgi) or newer req
 Follow these steps to start a local development server.
 
 1. Download and extract [_blazeds-turnkey-4.0.0.14931.zip_](https://github.com/joshtynjala/blazeds-turnkey-archive/releases/tag/v4.0.0.14931).
-1. Upgrade the bundled Tomcat server using the appropriate instructions above.
+1. Upgrade the bundled Tomcat server using the appropriate instructions above for your chosen version.
+1. Upgrade the bundled BlazeDS binaries using the instructiosn above.
 1. Open a terminal, and navigate to the directory where the BlazeDS Turnkey bundle was extracted.
 1. Use the provided startup script to start Tomcat.
 
