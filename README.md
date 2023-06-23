@@ -24,7 +24,7 @@ However, these front-end samples have been recreated with other technologies tha
 
 ## Upgrade BlazeDS
 
-The original bundle includes Adobe BlazeDS 4.0.0.14931, which is outdated and contains known security vulnerablities. BlazeDS is now managed by the [Apache Flex](https://flex.apache.org) project, and you can download a more recent release from 
+The original bundle includes Adobe BlazeDS 4.0.0.14931, which is outdated and contains known security vulnerablities. New releases of BlazeDS are now managed by the [Apache Flex](https://flex.apache.org) project.
 
 1. Download the [BlazeDS source release](https://flex.apache.org/download-blazeds.html).
 1. Extract the BlazeDS source release somewhere on your computer.
