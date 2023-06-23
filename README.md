@@ -16,11 +16,11 @@ BlazeDS uses AMF (Action Message Format), a form of binary encoding to serialize
 
 The original front-end sample Flex applications included in this bundle require the Adobe Flash Player plugin to run. As of 2020, Adobe has discontinued Flash Player updates, and they no longer make old versions of the plugin available for download. Additionally, most web browsers have completely removed support for displaying content using plugins.
 
-However, these front-end samples have been recreated with other frontend technologies, to be run using JavaScript, without a plugin. Choose your favorite alternative below.
+However, these front-end samples have been recreated with other technologies that can compile to JavaScript for the web, so that no plugins are required. Choose your favorite alternative from the ones below.
 
-- The [_feathersui/feathersui-blazeds-turnkey-samples_](https://github.com/feathersui/feathersui-blazeds-turnkey-samples) repository provides alternate samples built with the [Haxe](https://haxe.org/) programming language and the [Feathers UI](https://feathersui.com/) library. It can not only compile to JavaScript, but also to a variety of other targets, including native C++ apps for desktop and mobile.
+- The [_feathersui/feathersui-blazeds-turnkey-samples_](https://github.com/feathersui/feathersui-blazeds-turnkey-samples) repository provides alternate samples built with the [Haxe](https://haxe.org/) programming language and the [Feathers UI](https://feathersui.com/) library. In addition to compiling to to JavaScript, they can target a variety of other platforms, including native C++ apps for desktop and mobile.
 
-- The [_joshtynjala/royale-blazeds-turnkey-samples_](https://github.com/joshtynjala/royale-blazeds-turnkey-samples) repository provides alternate samples built with [Apache Royale](https://royale.apache.org/), which uses ActionScript 3 and MXML, similar to Flex, except it compiles to JavaScript for the web.
+- The [_joshtynjala/royale-blazeds-turnkey-samples_](https://github.com/joshtynjala/royale-blazeds-turnkey-samples) repository provides alternate samples built with [Apache Royale](https://royale.apache.org/), which uses ActionScript 3 and MXML (similar to Flex). Unlike Flex, Royale can compile to JavaScript.
 
 ## Upgrade BlazeDS
 
